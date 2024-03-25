@@ -1,4 +1,3 @@
-import { users } from "../dummyData/data.js";
 import User from "../models/user_model.js";
 import bcrypt from "bcryptjs";
 
@@ -49,7 +48,7 @@ const userResolver = {
         const newUser = new User({
           username,
           name,
-          password,
+          password: hashedPassword,
           gender,
           profilePicture: gender === "male" ? boyProfilePic : girlProfilePic,
         });
