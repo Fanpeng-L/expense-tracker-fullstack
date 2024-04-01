@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
-import SignUpPage from "../pages/SignUpPage";
-import NotFoundPage from "../pages/NotFoundPage";
-import LoginPage from "../pages/LoginPage";
-import HomePage from "../pages/HomePage";
-import TransactionPage from "../pages/TransactionPage";
+import SignUpPage from "./pages/SignUpPage";
+import NotFoundPage from "./pages/NotFoundPage";
+import LoginPage from "./pages/LoginPage";
+import HomePage from "./pages/HomePage";
+import TransactionPage from "./pages/TransactionPage";
 import Header from "./components/ui/Header";
 
 function App() {
